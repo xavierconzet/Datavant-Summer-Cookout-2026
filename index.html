@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datavant Cookout 2026</title>
+    <title>Datavant Summer Potluck 2026</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -24,19 +24,19 @@
             overflow: hidden;
             box-shadow:
                 0 40px 100px rgba(0,0,0,0.5),
-                0 0 80px rgba(255, 110, 30, 0.1),
+                0 0 80px rgba(218, 165, 32, 0.12),
                 inset 0 0 0 1px rgba(255,255,255,0.08);
             font-family: 'Nunito', sans-serif;
             position: relative;
         }
 
-        /* Top fire accent bar */
+        /* Top amber accent bar */
         .flyer::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
-            background: linear-gradient(90deg, #FF4500, #FF8C00, #FFD700, #FF8C00, #FF4500);
+            background: linear-gradient(90deg, #B8740A, #D4961A, #FFD700, #D4961A, #B8740A);
             z-index: 10;
         }
 
@@ -54,7 +54,7 @@
             transform: translate(-50%, -50%);
             width: 420px;
             height: 300px;
-            background: radial-gradient(ellipse, rgba(255, 110, 30, 0.13) 0%, transparent 70%);
+            background: radial-gradient(ellipse, rgba(218, 165, 32, 0.15) 0%, transparent 70%);
             pointer-events: none;
         }
 
@@ -63,11 +63,11 @@
             font-size: 96px;
             line-height: 0.92;
             letter-spacing: 4px;
-            background: linear-gradient(180deg, #FFE566 0%, #FF9500 35%, #FF4500 75%, #CC2200 100%);
+            background: linear-gradient(180deg, #FFE566 0%, #E0A020 35%, #B8740A 75%, #8B5A0A 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            filter: drop-shadow(0 0 30px rgba(255, 120, 30, 0.45));
+            filter: drop-shadow(0 0 30px rgba(218, 165, 32, 0.5));
             position: relative;
             z-index: 1;
         }
@@ -106,14 +106,14 @@
         }
 
         .countdown-num {
-            background: rgba(255, 110, 30, 0.15);
-            border: 1px solid rgba(255, 110, 30, 0.3);
+            background: rgba(218, 165, 32, 0.15);
+            border: 1px solid rgba(218, 165, 32, 0.35);
             border-radius: 10px;
             padding: 8px 14px;
             font-family: 'Bebas Neue', cursive;
             font-size: 30px;
             letter-spacing: 2px;
-            color: #FF9500;
+            color: #E0A020;
             min-width: 58px;
             text-align: center;
         }
@@ -129,14 +129,14 @@
         .countdown-sep {
             font-family: 'Bebas Neue', cursive;
             font-size: 26px;
-            color: rgba(255, 110, 30, 0.4);
+            color: rgba(218, 165, 32, 0.5);
             padding-top: 8px;
         }
 
         .countdown-done {
             font-size: 16px;
             font-weight: 800;
-            color: #FF9500;
+            color: #E0A020;
             padding: 24px 50px 0;
             text-align: center;
         }
@@ -144,7 +144,7 @@
         /* ── Divider ── */
         .divider {
             height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(255, 160, 60, 0.7), transparent);
+            background: linear-gradient(90deg, transparent, rgba(218, 165, 32, 0.7), transparent);
             margin: 24px 44px 0;
         }
 
@@ -172,8 +172,8 @@
         .detail-icon-wrap {
             width: 46px;
             height: 46px;
-            background: rgba(255, 110, 30, 0.15);
-            border: 1px solid rgba(255, 110, 30, 0.35);
+            background: rgba(218, 165, 32, 0.15);
+            border: 1px solid rgba(218, 165, 32, 0.4);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -187,7 +187,7 @@
             font-weight: 800;
             letter-spacing: 2px;
             text-transform: uppercase;
-            color: #FFA040;
+            color: #E0A020;
             margin-bottom: 3px;
         }
 
@@ -202,7 +202,7 @@
             flex: 1;
             border-radius: 16px;
             overflow: hidden;
-            border: 1px solid rgba(255, 110, 30, 0.25);
+            border: 1px solid rgba(218, 165, 32, 0.3);
             min-height: 180px;
             background: rgba(255,255,255,0.03);
             display: flex;
@@ -273,11 +273,11 @@
         /* ── RSVP box ── */
         .rsvp {
             margin: 4px 40px 36px;
-            background: linear-gradient(135deg, #FF7A00, #FF3D00);
+            background: linear-gradient(135deg, #C8870E, #8B5A0A);
             border-radius: 18px;
             padding: 30px 30px;
             text-align: center;
-            box-shadow: 0 8px 40px rgba(255, 90, 0, 0.5), 0 0 80px rgba(255, 90, 0, 0.15);
+            box-shadow: 0 8px 40px rgba(180, 120, 20, 0.5), 0 0 80px rgba(180, 120, 20, 0.15);
         }
 
         .rsvp h3 {
@@ -333,7 +333,7 @@
 
         .rsvp-btn:hover, .rsvp-btn-sm:hover {
             background: white;
-            color: #FF4500;
+            color: #8B5A0A;
             transform: translateY(-2px);
         }
 
@@ -354,9 +354,9 @@
     <div class="flyer">
 
         <div class="header">
-            <h1>Datavant<br>Cookout</h1>
+            <h1>Datavant<br>Potluck</h1>
             <div class="sub">Summer 2026 &nbsp;·&nbsp; You're Invited</div>
-            <p class="tagline">Step away from the desk, fire up the grill, and enjoy some good food,<br>lawn games, and quality time with the team outside of work.</p>
+            <p class="tagline">Step away from the desk, bring a dish to share, grab a pint,<br>and enjoy good food and good company at Utepils Brewing.</p>
         </div>
 
         <!-- Countdown -->
@@ -391,7 +391,7 @@
                     <div class="detail-icon-wrap">📅</div>
                     <div>
                         <div class="detail-label">Date</div>
-                        <div class="detail-value">Sunday, June 14th, 2026</div>
+                        <div class="detail-value">Saturday, June 13th, 2026</div>
                     </div>
                 </div>
                 <div class="detail-row">
@@ -405,13 +405,13 @@
                     <div class="detail-icon-wrap">📍</div>
                     <div>
                         <div class="detail-label">Location</div>
-                        <a class="detail-value" href="https://maps.google.com/?q=10832+Huntington+Drive,+Eden+Prairie,+MN+55347" target="_blank" style="color:white;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.3);">10832 Huntington Drive<br>Eden Prairie, MN 55347</a>
+                        <a class="detail-value" href="https://maps.google.com/?q=Utepils+Brewing+225+Thomas+Ave+N+%23700+Minneapolis+MN+55405" target="_blank" style="color:white;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.3);">Utepils Brewing<br>225 Thomas Ave N #700, Minneapolis</a>
                     </div>
                 </div>
             </div>
 
             <div class="map-wrap">
-                <iframe src="https://maps.google.com/maps?q=10832+Huntington+Drive,+Eden+Prairie,+MN+55347&output=embed"></iframe>
+                <iframe src="https://maps.google.com/maps?q=Utepils+Brewing+225+Thomas+Ave+N+%23700+Minneapolis+MN+55405&output=embed"></iframe>
             </div>
         </div>
 
@@ -438,11 +438,10 @@
 
         <div class="rsvp">
             <h3>RSVP Required</h3>
-            <p>We need a headcount to plan food & fun.<br>Use the links below to sign up for everything.<br>Spouses, kids, and partners are all welcome — bring the crew!</p>
+            <p>We need a headcount and food sign-ups so we can plan accordingly.<br>Spouses, kids, and partners are all welcome — bring the crew!</p>
             <div class="rsvp-secondary">
                 <a class="rsvp-btn" href="https://docs.google.com/spreadsheets/d/1z9mMzwo8-dVYxASovVT4eV6LJieI2MWI0Fbs2r8qPPQ/edit?gid=846511017#gid=846511017" target="_blank">👥 RSVP Now</a>
                 <a class="rsvp-btn-sm" href="https://docs.google.com/spreadsheets/d/1z9mMzwo8-dVYxASovVT4eV6LJieI2MWI0Fbs2r8qPPQ/edit?gid=0#gid=0" target="_blank">🍔 Food Sign-Up</a>
-                <a class="rsvp-btn-sm" href="https://docs.google.com/spreadsheets/d/1z9mMzwo8-dVYxASovVT4eV6LJieI2MWI0Fbs2r8qPPQ/edit?gid=645104325#gid=645104325" target="_blank">🪁 Activities</a>
             </div>
         </div>
 
@@ -454,7 +453,7 @@
     </div>
 
     <script>
-        const target = new Date('2026-06-14T17:00:00Z').getTime();
+        const target = new Date('2026-06-13T17:00:00Z').getTime();
 
         function tick() {
             const now = Date.now();
